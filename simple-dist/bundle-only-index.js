@@ -3,7 +3,7 @@
 (function(modules) {
   // 加载过的模块（文件）缓存
   var installedModules = {};
-  // 模块（文件）加载器
+  // 模块(文件)加载器 moduleId 一般就是文件路径
   function __webpack_require__(moduleId) {
     // Check if module is in cache
     if (installedModules[moduleId]) {
